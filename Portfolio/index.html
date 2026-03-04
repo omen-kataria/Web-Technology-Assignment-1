@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gaurav Kataria &mdash; Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <input type="checkbox" id="theme-toggle" class="theme-checkbox" />
+
+    <div class="page-wrapper">
+      <header>
+        <a href="#home" class="logo">Gaurav Kataria</a>
+
+        <input type="checkbox" id="nav-toggle" class="nav-checkbox" />
+        <label for="nav-toggle" class="nav-toggle-label">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+
+        <nav>
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#education">Education</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <label for="theme-toggle" class="theme-switch">
+          <i class="fa-solid fa-moon"></i>
+          <span class="slider"></span>
+          <i class="fa-solid fa-sun"></i>
+        </label>
+      </header>
+
+      <main>
+        <section class="hero" id="home">
+          <div class="hero-content">
+            <img
+              src="/Images/avatar.png"
+              alt="Gaurav Kataria Avatar"
+              class="hero-avatar"
+            />
+            <h1>RHCSA Certified Linux System Administrator</h1>
+            <p>
+              Building secure networks, developing web interfaces, and exploring
+              the Linux Kernel.
+            </p>
+          </div>
+        </section>
+
+        <section class="about" id="about">
+          <h2>About Me</h2>
+          <div class="about-content">
+            <p>
+              I am a passionate tech enthusiast based in Bijnor, blending my
+              academic studies in Computer Applications with hands-on,
+              self-taught expertise.
+            </p>
+            <p>
+              Whether I am configuring DNS servers, practicing ethical hacking,
+              building responsive web pages with HTML and CSS, or
+              troubleshooting my custom Raspberry Pi 4 server, I thrive on
+              exploring how software and hardware interact. My approach is
+              highly practical: I believe the best way to master systems is by
+              breaking them down and building them back up from the command
+              line.
+            </p>
+          </div>
+        </section>
+
+        <div class="tech-slider-container">
+          <div class="tech-slider">
+            <div class="tech-slide">
+              <i class="fa-brands fa-linux" title="Linux"></i>
+              <i class="fa-brands fa-redhat" title="Red Hat"></i>
+              <i class="fa-brands fa-html5" title="HTML5"></i>
+              <i class="fa-brands fa-css3-alt" title="CSS3"></i>
+              <i class="fa-brands fa-python" title="Python"></i>
+              <i class="fa-brands fa-git-alt" title="Git"></i>
+              <i class="fa-brands fa-aws" title="AWS"></i>
+              <i class="fa-solid fa-terminal" title="Bash Scripting"></i>
+              <i class="fa-solid fa-network-wired" title="Networking"></i>
+            </div>
+            <div class="tech-slide">
+              <i class="fa-brands fa-linux" title="Linux"></i>
+              <i class="fa-brands fa-redhat" title="Red Hat"></i>
+              <i class="fa-brands fa-html5" title="HTML5"></i>
+              <i class="fa-brands fa-css3-alt" title="CSS3"></i>
+              <i class="fa-brands fa-python" title="Python"></i>
+              <i class="fa-brands fa-git-alt" title="Git"></i>
+              <i class="fa-brands fa-aws" title="AWS"></i>
+              <i class="fa-solid fa-terminal" title="Bash Scripting"></i>
+              <i class="fa-solid fa-network-wired" title="Networking"></i>
+            </div>
+          </div>
+        </div>
+
+        <section class="education" id="education">
+          <h2>Education & Training</h2>
+          <div class="timeline-container">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h3>Bachelor of Computer Applications (BCA)</h3>
+                <p class="timeline-subtitle">Vivek University India, Bijnor</p>
+                <p class="timeline-date">
+                  October 2024 &mdash; August 2027 (Expected)
+                </p>
+                <p>
+                  Focusing on foundational computer science principles,
+                  programming structures, database management, and modern web
+                  development methodologies.
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h3>Web Dev Cohort 2026</h3>
+                <p class="timeline-subtitle">Specialized Training Program</p>
+                <p class="timeline-date">January 2026 &mdash; Present</p>
+                <p>
+                  Intensive training focused on practical web architecture and
+                  front-end builds. Hands-on experience developing
+                  developer-tool landing pages, technical documentation sites,
+                  and authoring technical content on DNS record types and
+                  resolution systems.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="skills" id="skills">
+          <h2>Technical Proficiencies</h2>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <i class="fa-solid fa-server skill-icon"></i>
+              <h3>Linux & Server Admin</h3>
+              <p>
+                Expertise in user management, file permissions, storage
+                configuration, DNS resolution, and service deployment via CLI.
+              </p>
+            </div>
+            <div class="skill-item">
+              <i class="fa-solid fa-code skill-icon"></i>
+              <h3>Web Development</h3>
+              <p>
+                Creating clean, responsive personal portfolios, documentation
+                sites, and developer tool landing pages using modern HTML & CSS.
+              </p>
+            </div>
+            <div class="skill-item">
+              <i class="fa-solid fa-shield-halved skill-icon"></i>
+              <h3>Cybersecurity</h3>
+              <p>
+                Understanding security fundamentals, threat assessments, network
+                devices, and ethical hacking protocols.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="experience" id="experience">
+          <h2>Experience</h2>
+          <div class="timeline-container">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h3>IT Technical Support Intern</h3>
+                <p class="timeline-subtitle">Saakshar Hum Foundation</p>
+                <p class="timeline-date">June 2024 &mdash; July 2024</p>
+                <p>
+                  Delivered crucial technical support for ongoing digital
+                  literacy initiatives. Honed collaborative troubleshooting
+                  skills, system maintenance, and user-facing issue resolution
+                  in a fast-paced environment.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="certifications" id="certifications">
+          <h2>Certifications & Workshops</h2>
+          <ul>
+            <li>
+              <strong>Red Hat:</strong> Certified System Administrator (RHCSA)
+            </li>
+            <li>
+              <strong>EC-Council:</strong> Ethical Hacking Essentials (EHE)
+            </li>
+            <li><strong>ISC²:</strong> Certified in Cybersecurity (CC)</li>
+            <li>
+              <strong>Academics:</strong> IIT Delhi x Vivek University Virtual
+              Labs Workshop
+            </li>
+            <li>
+              <strong>Simulations:</strong> Mastercard & ANZ Australia
+              Cybersecurity Job Simulations
+            </li>
+          </ul>
+        </section>
+
+        <section class="contact" id="contact">
+          <h2>Let's Connect</h2>
+          <p>
+            I am currently open to new opportunities, collaborations, and
+            open-source projects. Whether you have a question or just want to
+            say hi, my inbox is always open!
+          </p>
+          <div class="contact-details">
+            <a href="mailto:kataria.jxt@yahoo.com" class="contact-box">
+              <i class="fa-solid fa-envelope"></i>
+              <span>Email Me</span>
+            </a>
+
+            <a
+              href="https://maps.google.com/?q=Bijnor,+Uttar+Pradesh,+India"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="contact-box"
+            >
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Bijnor, India</span>
+            </a>
+
+            <a
+              href="https://linkedin.com/in/jxt-katar5228"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="contact-box"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+              <span>LinkedIn</span>
+            </a>
+
+            <a
+              href="https://github.com/omen-kataria"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="contact-box"
+            >
+              <i class="fa-brands fa-github"></i>
+              <span>GitHub</span>
+            </a>
+
+            <a
+              href="https://twitter.com/gaurav_kat10226"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="contact-box"
+            >
+              <i class="fa-brands fa-x-twitter"></i>
+              <span>X</span>
+            </a>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <p>&copy; 2026 Gaurav Kataria. Built with HTML & CSS.</p>
+      </footer>
+    </div>
+  </body>
+</html>
